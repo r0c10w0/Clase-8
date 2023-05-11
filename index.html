@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Rocio Albanez</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 768px) {
+                .container { max-width: 720px;}
+            }
+        </style>
+    </head>
+    <body class="bg-secondary-subtle bg-gradient">
+        <header class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h2 class="text-center mt-5 fs-5 fw-bolder">Rocio Albanez</h2>
+                    <h1 class="text-center mt-3 mb-4 fs-2">Galeria de Ilustración</h1>
+                    <p class="lead text-center mx-auto w-75"> En este sitio web podras encontar dintintos tipos de ilustraciones o productos relacionados con ella, las cuales son creadas por distintos artistas y ilustradores.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center py-3">PROTO-PERSONAS</h3>
+                            <!--PROTO-PERSONA 1-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-1.jpg" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>BERTHA NUÑEZ (53)</h4>
+                                    <p>Bertha vive en la capital con su hijo de 18 años y su marido quien no temino la educacion tecnica, pero aun asi tiene un trabajo estable en una empresa,Bertha termino la carrera de psicopedagogia y la imparte hace más de 20 años en un colegio municipal, le gusta ver series y peliculas ya sea con su familia o sola, tambien le gusta salir a comer a distintos lugares o pedir comida en casa, esto debido a que no le agrada mucho cocinar.</p>
+                                    <p class="text-secondary"> Bertha quiere regalarle algo a su hijo, ya que debido a la universidad este se ha concentrado en el estudio y no ha tenido tiempo para el mismo, Bertha sabe que le gusta el anime sin embargo no conoce mucho del tema y en internet a la hora de buscar no recuerda bien los nombres de las series que a mencionado su hijo,.</p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 2-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4 order-sm-2">
+                                    <img src="img/proto-persona-2.jpg" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 order-sm-1 p-4 small">
+                                    <h4>José Ramirez (24)</h4>
+                                    <p>Jose es un estuandiante de Ingeneria Civil Industrial, estudia en la usach y tiene como hobby dibujar, ver anime en sus tiempos libres, hablar con sus amigos y salir de fiesta, este vive en santiago centro y arrienda un departamento junto con un compañero de la universidad. </p>
+                                    <p class="text-secondary">José lamentable no ha tenido tiempo de dibujar debido a los estudios, y cuando se le presenta la oportunidad este no tiene inspiración, es por esto que busca nuevas ideas ya que al ver sus redes sociales esta cansado de ver a los mismos artistas de siempre.</p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 3-->
+                            <div class="row align-items-center bg-white rounded mb-5 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-3.jpg" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>Javiera Flores (26)</h4>
+                                    <p>Javiera vive con su madre en Providencia, y esta terminando la carrera de artes visuales en la UC, esta es algo conocida en redes por sus ilustraciones coloridas y llamativas, desde pequeña que ha visto anime, esto debido a que su hermano mayor veia, aunque ultimamente ha visto mucho menos.
+                                </p>
+                                    <p class="text-secondary">Javiera tiene como objetivo llegar a distintas personas con sus ilustraciones, sin embrago siente que el algoritmo de las redes sociales no le esta funcionado, es por esto que busca un espacio para mostrar lo que puede hacer.</p>
+                                </div>
+                            </div>
+                            <!--NO MÁS PROTO-PERSONAS-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light-subtle border-top border-bottom border-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center mt-5 mb-4 fs-4">ANTECEDENTES</h3>
+                            <div class="row row-cols-1 row-cols-sm-3 g-4 pb-5" id="antecedentes"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container text-white-50">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small py-1 px-4 m-0">
+                            <a href="index.html" class="fw-bold">Galeria de ilustracion</a>
+                            <a href="#" class="fw-bold">Rocio Albanez © 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
+            var datos = [
+                {
+                    thumbnail: "img/thumbaile.jpg",
+                    title: "Anya´s Gallery by Anya",
+                    screenshot: "img/img-anyas-gallery.png",
+                    descriptor: "Anya´s Gallery es una pagina interactiva donde anya muestra sus distintas obras de arte y una breve descripcion de ellas, lo que mas me gusto fue que algunas obras son interactivas es decir las puedes mover o se mueven a la hora de pasar el mous .",
+                    url: "https://www.anya-s.gallery/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-1.jpg",
+                    title: "The skies over the South China Sea",
+                    screenshot: "img/antecedente-1.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://www.reuters.com/graphics/TAIWAN-CHINA/byvrjrmgnve/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-2.jpg",
+                    title: "Valentine's Day",
+                    screenshot: "img/antecedente-2.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://multimedia.scmp.com/culture/article/valentine/",
+                },
+            ];
+            datos.forEach((d, i) => {
+                document.getElementById("antecedentes").innerHTML += '<div class="col"><div class="card border-0 h-100 shadow-sm"><img src="' + d.thumbnail + '" class="card-img-top"/><div class="card-body"><h6 class="card-title m-0">' + d.title + '</h6></div><div class="card-footer small border-0"><a href="#" onclick = "detalle(' + i + ')" class="stretched-link text-secondary text-decoration-none">Ver análisis &rarr;</a></div></div></div>';
+            });
+
+            const antecedente = document.querySelector("main");
+            function detalle(nro) {
+                antecedente.innerHTML = '<div class="container"><div class="row"><div class="col-11 mx-auto"><p class="text-center my-4"><a href="#" onClick="window.location.reload()" class="btn btn-light btn-sm shadow-sm fs-6">Volver</a></p><p><a href="' + datos[nro].url + '" class="fw-bold text-dark text-decoration-none" target="_blank">' + datos[nro].title + '</a> | ' + datos[nro].descriptor + '</p><img src="' + datos[nro].screenshot + '" class="w-100 mb-5"></div></div></div>';
+            }
+        </script>
+    </body>
+</html>
